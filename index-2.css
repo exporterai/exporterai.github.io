@@ -4,11 +4,23 @@
     font-weight: 900;
 }
 
-.container {
+.home-text {
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
+    flex: 1;
     border-radius: 5px;
     padding: 10px 10px;
     background-color: #fff;
+}
+
+@media (max-width: 768px) { 
+    .home-text p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) { 
+    .home-text p {
+        font-size: 14px; 
+    }
 }
