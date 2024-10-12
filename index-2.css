@@ -5,12 +5,10 @@
 }
 
 .home-text {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
     border-radius: 5px;
     padding: 10px 10px;
     background-color: #fff;
+    color : #437eeb; 
 }
 
 @media (max-width: 768px) { 
